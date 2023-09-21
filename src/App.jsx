@@ -7,10 +7,10 @@ function App() {
 
 
   return (
-    <div className=''>
+    <div>
       <div className='w-4/5 mx-auto'>
         <Header></Header>
-        <div className='md:flex'>
+        <div className='md:flex gap-6'>
           <Blogs></Blogs>
           <Bookmarks></Bookmarks>
         </div>
